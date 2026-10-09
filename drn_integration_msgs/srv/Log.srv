@@ -1,9 +1,0 @@
-# Request
-string uuid
-string data
-string timestamp
-
----
-# Response
-bool success
-string feedback

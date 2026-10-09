@@ -1,8 +1,0 @@
-# Request
-string command
-bool status
-int16 id
-string mission_direction
----
-# Response
-bool success
