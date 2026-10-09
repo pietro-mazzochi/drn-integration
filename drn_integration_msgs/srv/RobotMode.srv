@@ -1,0 +1,7 @@
+# Request
+bool autonomous
+
+---
+# Response
+bool success
+string feedback

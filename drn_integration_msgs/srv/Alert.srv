@@ -1,0 +1,12 @@
+# Request
+string uuid
+bool active
+int16 errorcode
+string data
+string message
+string timestamp
+
+---
+# Response
+bool success
+string feedback

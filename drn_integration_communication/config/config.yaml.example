@@ -1,0 +1,36 @@
+mqtt:
+  server_address: "tcp://10.0.0.14:1883"
+  username: "root"
+  password: "sistemas01"
+
+database:
+  connection_string: "dbname=drcdrn-amr-dev user=drcdrn password=drcdrn hostaddr=10.0.0.81 port=5432"
+
+parameters:
+  topic_remote_system_request: "/REMOTE-SYSTEM/REQUEST/"
+  topic_remote_system_response: "/REMOTE-SYSTEM/RESPONSE"
+  topic_mapping_map: "/MAPPING/MAP"
+  topic_mission_status: "/MISSION/STATUS"
+  topic_mission_log: "/MISSION/LOG"
+  topic_telemetry_pose: "/TELEMETRY/POSE"
+  topic_telemetry_battery: "/TELEMETRY/BATTERY"
+  topic_telemetry_velocity: "/TELEMETRY/VELOCITY"
+  topic_telemetry_alert: "/TELEMETRY/ALERT"
+  topic_telemetry_logs: "/TELEMETRY/LOG"
+  topic_robot_status: "/ROBOT/STATUS"
+  topic_robot_mode: "/ROBOT/MODE"
+  code_robot_status: 1491850327
+  code_robot_mode: 1491850328
+  model: "FlexNav_1500"
+  timer_global_map_publish: 300
+  timer_global_pose_publish: 300
+  timer_global_amcl_pose_publish: 300
+  timer_global_velocity_publish: 1000
+  timer_global_battery_publish: 1000
+  timer_plc_publish: 1000
+  timer_hearbit_publish: 8000
+  timeout_hardbit: 2
+  buffer: 100
+  publish_timeout: 1000
+  set_keep_alive_interval: 20 #30
+  sleep_mqtt_reconnect_loop: 8 #5

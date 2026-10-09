@@ -1,0 +1,11 @@
+# Request
+int16 id
+string uuid
+string status
+string data
+string timestamp
+
+---
+# Response
+bool success
+string feedback
